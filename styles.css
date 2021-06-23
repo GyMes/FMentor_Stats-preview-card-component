@@ -1,0 +1,72 @@
+body{
+  color: white;
+  background-color: hsl(233, 47%, 7%);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+h1{
+  padding-top: 50px;
+  padding-left: 50px;
+  margin:0px;
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.row{
+    background-color: hsl(244, 38%, 16%);
+    margin:100px;
+    border-radius: 8px;
+}
+
+.insights{
+  color:hsl(277, 64%, 61%);
+}
+
+.copy{
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.desktop-img{
+  width:100%;
+  height:100%;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-120deg) saturate(600%) contrast(0.8);
+  border-radius: 0 8px 8px 0;
+}
+
+.mobile-img{
+  width:100%;
+  height:100%;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-120deg) saturate(600%) contrast(0.8);
+  border-radius: 8px 8px 0 0;
+}
+
+.col-lg-4{
+  padding-left:50px;
+}
+
+.img-div{
+  position: relative;
+}
+
+@media (max-width:1028px) {
+  body{
+    text-align: center;
+  }
+  h1, .copy, .col-lg-4{
+    padding-left: 0;
+    font-weight: normal;
+    font: 15px;
+  }
+  .col-lg-4{
+    font-size: 12px;
+  }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
